@@ -1,6 +1,6 @@
 
 
-**Bottom-Up Temporal Action Localization with Mutual Regularization (ECCV2020)**
+# **Bottom-Up Temporal Action Localization with Mutual Regularization (ECCV2020)**
 
 ![avatar](/framework.png)
 
