@@ -21,13 +21,13 @@ Download and use *merge_feature.py* in *./data* folder to pre-process the featur
 
 # Training and Testing
 
-**step 1**: Obtain the results w/o additional proposal scoring.
+**step 1**: Obtain the proposal results w/o additional proposal scoring.
 
 ```
 python main.py
 ```
 
-**step 2**: Obtain the results w/ additional proposal scoring.
+**step 2**: Obtain the proposal results w/ additional proposal scoring.
 
 ```
 python main_pem.py
