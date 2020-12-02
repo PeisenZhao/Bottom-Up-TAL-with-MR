@@ -1,8 +1,13 @@
 
 
-# **Bottom-Up Temporal Action Localization with Mutual Regularization (ECCV2020)**
-
+# **Bottom-Up Temporal Action Localization with Mutual Regularization (ECCV2020)** [pdf](https://arxiv.org/pdf/2002.07358.pdf)
 ![avatar](/framework.png)
+
+# Update
+
+2020-12-02 We also provide a pytorch implementation for proposed Mutual Regularization losses in [Mutual_Regularization_Loss.py](https://github.com/PeisenZhao/Bottom-Up-TAL-with-MR/blob/master/Mutual_Regularization_Loss.py).
+
+
 
 # Environment Configuration
 
@@ -18,6 +23,16 @@ Download and use *merge_feature.py* in *./data* folder to pre-process the featur
 [(I3D Features)](https://github.com/Finspire13/CMCS-Temporal-Action-Localization)
 
 [1] Liu D, Jiang T, Wang Y. Completeness Modeling and Context Separation for Weakly Supervised Temporal Action Localization[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019: 1298-1307.
+
+We also provide another feature download links：
+
+**THUMOS14**
+link: https://jbox.sjtu.edu.cn/l/pn3mvh
+pw: ibhg
+
+**ActivityNet1.3**
+link: https://jbox.sjtu.edu.cn/l/vuB3WW
+pw: yqgt
 
 # Training and Testing
 
@@ -45,6 +60,15 @@ python main_detection.py
 Please cite our paper if you use this code in your research:
 
 
-
+```
+@inproceedings{zhao2020bottom,
+  title={Bottom-up temporal action localization with mutual regularization},
+  author={Zhao, Peisen and Xie, Lingxi and Ju, Chen and Zhang, Ya and Wang, Yanfeng and Tian, Qi},
+  booktitle={European Conference on Computer Vision},
+  pages={539--555},
+  year={2020},
+  organization={Springer}
+}
+```
 
 
